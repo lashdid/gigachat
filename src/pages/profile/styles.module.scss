@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  & > h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.profile_container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.profile_items {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: xx-large;
+  }
+}
+
+.profile_buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: rgba($color: #000000, $alpha: 0.2);
+  color: #aaaaaa;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+  }
+}
+
+.button_logout {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: #aaaaaa;
+  color: #000000;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba($color: #aaaaaa, $alpha: 0.5);
+  }
+}
