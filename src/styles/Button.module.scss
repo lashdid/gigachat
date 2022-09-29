@@ -1,0 +1,13 @@
+.button {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+  color: #aaaaaa;
+  font-size: 2rem;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+  &:hover {
+    padding-right: 1rem;
+  }
+}

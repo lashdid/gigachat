@@ -1,0 +1,22 @@
+@import './Button.module.scss';
+@import './Input.module.scss';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: solid 0.2rem #aaaaaa;
+  padding: 2rem;
+  width: 30%;
+  gap: 1rem;
+  input {
+    @extend .input
+  }
+  button {
+    @extend .button;
+    align-self: flex-end;
+  }
+  small a{
+    color: #aaaaaa
+  }
+}
+
