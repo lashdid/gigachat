@@ -1,0 +1,45 @@
+// i get this from https://github.com/Detaysoft/react-chat-elements
+
+$dark-gray: rgba(
+  $color: #000000,
+  $alpha: 0.2,
+);
+
+.rce_container_input {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: row;
+  background-color: #aaaaaa;
+  align-items: center;
+}
+
+.rce_input {
+  flex: 1;
+  padding: 0 5px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background-color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  font-weight: 600;
+}
+
+.rce_input_textarea {
+  height: 37px;
+  padding: 10px 5px;
+  resize: none;
+  scrollbar-width: thin;
+  scrollbar-color: $dark-gray transparent;
+}
+
+.rce_left_padding {
+  padding-left: 10px;
+  padding-right: 0px !important;
+}
+
+.rce_right_padding {
+  padding-right: 10px;
+  padding-left: 0px !important;
+}

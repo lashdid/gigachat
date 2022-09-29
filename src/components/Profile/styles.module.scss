@@ -1,0 +1,45 @@
+@import "../../styles/Button.module.scss";
+
+.room_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  h2 {
+    margin: 0;
+  }
+}
+
+.room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border: 0.2rem solid #aaaaaa;
+}
+
+.room_text {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  span {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+}
+
+.room_caption {
+  p {
+    margin: 0
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.button {
+  @extend .button;
+}
