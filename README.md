@@ -5,9 +5,10 @@
 A live typing group chat app ( in progress ).
 
 ## Things i do next
-- [ ] implement changing profile picture with chads
-- [ ] implement database with supabase
-- [ ] implement private and public server
-- [ ] implement live typing with websocket
+- [ ] changing profile picture with chads
+- [ ] database with supabase
+- [ ] private and public server
+- [ ] live typing with websocket
+- [ ] responsive design
 
 This readme will constantly changing.
