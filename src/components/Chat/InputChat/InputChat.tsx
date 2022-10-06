@@ -3,7 +3,7 @@
 import { useEffect } from 'react'
 import styles from './InputChat.module.scss'
 
-export default function InputChat({
+export function InputChat({
   type = 'text',
   multiline = false,
   minHeight = 25,
@@ -101,6 +101,7 @@ export default function InputChat({
           onKeyDown={props.onKeyDown}
           onKeyPress={props.onKeyPress}
           onKeyUp={props.onKeyUp}
+          value={props.value}
         ></textarea>
       )}
     </div>
