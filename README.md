@@ -12,3 +12,5 @@ A live typing group chat app ( in progress ).
 - [ ] responsive design
 
 This readme will constantly changing.
+
+I GAVE UP LOL 😆
